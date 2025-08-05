@@ -1,28 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranking Dobles - Liga de Tenis</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="welcome">
-        <h1>Ranking Dobles - Liga de Tenis</h1>
-        <img src="bienvenida.jpg" alt="Bienvenida" style="width: 100%; max-width: 600px;" />
-        <form action="/unirse" method="post" enctype="multipart/form-data">
-            <label>Nombre: <input type="text" name="nombre" /></label><br/>
-            <label>Correo electrónico: <input type="email" name="correo" /></label><br/>
-            <label>Categoría:
-                <select name="categoria">
-                    <option value="Afiliado">Afiliado</option>
-                    <option value="Profesor">Profesor</option>
-                    <option value="Monitor">Monitor</option>
-                    <option value="Voleador">Voleador</option>
-                </select>
-            </label><br/>
-            <label>Foto de perfil: <input type="file" name="foto" /></label><br/>
-            <button type="submit">Unirse</button>
-        </form>
-    </div>
+    <header>
+        <h1>RANKING DOBLES - LIGA DE TENIS</h1>
+    </header>
+    <main>
+        <section id="bienvenida">
+            <img src="roger-federer.jpg" alt="Roger Federer" class="welcome-img">
+            <h2>Convierte cada partido en una victoria</h2>
+            <p>Lleva tu juego al siguiente nivel</p>
+            <button onclick="location.href='registro.html'">¡Unirme a la Liga!</button>
+        </section>
+    </main>
 </body>
 </html>
